@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-image:url('imagens/image02.jpg') ;
+    background-position: center top;
+    background-size: 100%;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    background-color: #8180A6;
+    padding: 100px ;
+    border-radius: 20px;
+    color: white;
+}
+form button{
+    padding: 15px 100px;
+    cursor: pointer;
+    background-color: #BF8665;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    
+}
+form button:hover{
+
+}
+form h1{
+    padding-bottom: 24px;
+}
+   
+.form-campo{
+    margin-bottom: 16px;
+    
+    
+}
+.form-campo label{
+    font-weight: bold;
+    display: block;
+}
+.form-campo input{
+    width: 100%;
+    display: block;
+    padding: 12px;
+    border-radius: 8px;
+}
+
